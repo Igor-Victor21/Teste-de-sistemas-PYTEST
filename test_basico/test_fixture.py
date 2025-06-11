@@ -19,6 +19,7 @@ def test_tipo_estrutura(lista_simples):
 def test_numero_maximo(lista_simples):
     assert max(lista_simples) == 4
     
-
+def test_indice(lista_simples):
+    assert lista_simples[2] == 3
     
 
