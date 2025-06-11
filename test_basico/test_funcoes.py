@@ -9,12 +9,12 @@ def test_verifica_se_numero_par():
          assert eh_par(10) == 'é par'
 
 def test_verificar_email():
-         assert verifica_email('igor.victorcontato@gmail.com') == 'E-mail válido'
-         assert verifica_email('igor.victorcontatogmail') == 'E-mail incorreto'
+         assert verifica_email('pigor.pigor@gmail.com') == 'E-mail válido'
+         assert verifica_email('pigor.pigorgmail') == 'E-mail incorreto'
         
 def test_validar_senha():
-     assert validar_senha('#S2d4hpm16') == 'senha cadastrada'
-     assert validar_senha('s2d4hpm16') == 'senha não contem elementos obrigatorios'
+     assert validar_senha('#Sssaaaaiiii') == 'senha cadastrada'
+     assert validar_senha('Sssaaaaiiii') == 'senha não contem elementos obrigatorios'
 
 def test_tamanho_string():
      assert tamanho_string('abcdef') == 6
